@@ -249,7 +249,7 @@ from pyrogram.types import Message
 @cmd()
 async def __help(app: Client, msg: Message):
     help_text = (
-        '<a href="https://graph.org/Komandy-yuzer-bota-Lysyj-04-06">Все команды юзер бота</a> <i>(Кликабельно)</i>'
+        '<a href="https://graph.org/Komandy-yuzer-bota-v2-04-06">Все команды юзер бота</a> <i>(Кликабельно)</i>'
     )
 
     photo_path = "images/actions/journey/magic-forest/7.png"
@@ -282,10 +282,11 @@ async def __info(app: Client, msg: Message):
         f"Префикс: <i>«{prefix}»</i>\n"
         f"Никнейм: <i>@{msg.from_user.username}</i>\n"
         f"Телеграм ID: <i>{msg.from_user.id}</i>\n\n"
-        f"<a href='https://graph.org/Komandy-yuzer-bota-Lysyj-04-06'>Список команд</a> <i>(Кликабельно)</i>\n\n"
+        f"<a href='https://graph.org/Komandy-yuzer-bota-v2-04-06'>Список команд</a> <i>(Кликабельно)</i>\n\n"
         f"Автор бота: <i>Небесный</i>\n"
         f"UUID: <i>В разработке</i>\n"
-        f"Версия бота: <i>1.0</i>\n"
+        f"Версия бота: <i>1.1</i>\n\n"
+        f"<blockquote><a href="https://t.me/userbot_kot">Перейти в канал</a></blockquote>\n"
         f"Дата последнего обновления: <i>2025-04-06</i>"
     )
     
